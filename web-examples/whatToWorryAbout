@@ -1,0 +1,11 @@
+#branch-banner
+	position: (fixed|absolute); // must be either fixed or absolute.
+	bottom: (0|0px|0vh); // bottom + position must be less than 76
+
+#branch-banner .branch-banner-content
+	height: 73px is default, must be less than 76
+
+#branch-banner .branch-banner-button
+	background: (*) // cant have anything as a field, default no background key
+}
+//  if multiple copies, find last.
